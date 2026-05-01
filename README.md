@@ -11,6 +11,3 @@
 - Push code to GitHub
 - Follow proper folder structure
 - Submit a public repository link
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
