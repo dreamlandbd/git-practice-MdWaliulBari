@@ -1,8 +1,24 @@
+
 def add(a, b):
-    return a + b
+    try:
+        return a + b
+    except TypeError as e:
+        print(f"Error: {e}")
+
 def subtract(a, b):
-    return a - b
+    try:
+        return a - b
+    except TypeError as e:
+        print(f"Error: {e}")
+
 def multiply(a, b):
-    return a * b
+    try:
+        return a * b
+    except TypeError as e:
+        print(f"Error: {e}")
+
 def divide(a, b):
-    return a / b
+    try:
+        return a / b
+    except ZeroDivisionError as e:
+        print(f"Error: {e}")
